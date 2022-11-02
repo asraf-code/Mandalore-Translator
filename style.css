@@ -4,6 +4,7 @@
 
 * {
     box-sizing: border-box;
+    
 }
 
 :root {
@@ -11,14 +12,21 @@
     --off-white: #f3f4f6;
     --dark-gray: rgb(114, 114, 114);
     --width-break: 500px;
+    
 }
 
 body {
-    display: grid;
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 80%;
     /* place-content: center; */
     /* row-gap: 2rem; */
-    margin: 0;
+    margin: 0 auto;
     /* padding: 1rem; */
+    
+    
+    
+
     
 
     
@@ -32,7 +40,8 @@ h1 {
     padding: 2rem;
     margin-bottom: 5rem;
     text-align: center;
-    background-color: #4E1E23;
+        border-radius: 0.2rem;
+    background-color:  #4E1E23;
     width: 100%;
     color: #AE903C;
 }
@@ -117,11 +126,14 @@ button {
 .footer {
     padding: 1rem;
     text-align: center;
+    border-radius: 0.2rem;
     background-color: #4E1E23;
     width: 100%;
     bottom: 0;
     position: fixed;
     color: #AE903C;
+    max-width: 80%;
+    
 
 }
 
